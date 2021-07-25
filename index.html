@@ -7,39 +7,83 @@
     <title>America Murray - Google Homepage</title>
 </head>
 <body>
-    <!-- Top Navigation Bar -->
-    <div id="topNav">
-        <a href="">About</a>
-        <a href="">Store</a>
-        <!--  Container DIV for Google Apps Navigation -->
-        <div id="appsNavCon">
-            <!-- Apps Navigation -->
-            <div id="appsNav">
-                <!-- Container for text links -->
-                <div id="appTextNav">
-                    <!-- Text Links -->
-                    <a href="">Gmail</a>
-                    <a href="">Images</a>
-                </div>
-                <!-- Container for Icon and Button Links -->
-                <div id="appIconNav">
-                    <!-- Container for full Apps Menu -->
-                    <div id="appsMenu">
-                        <a href="">
-                            <!-- FIXME: Insert Menu Icon here -->
-                        </a>
+    <!-- Header -->
+    <!-- Note: header is consisent across all the search pages -->
+    <header>
+        <!-- Top Navigation Bar -->
+        <nav id="topNav">
+            <a href="">About</a>
+            <a href="">Store</a>
+            <!--  Container DIV for Google Apps Navigation -->
+            <div id="appsNavCon">
+                <!-- Apps Navigation -->
+                <div id="appsNav">
+                    <!-- Container for text links -->
+                    <div id="appTextNav">
+                        <!-- Text Links -->
+                        <a href="">Gmail</a>
+                        <a href="">Images</a>
                     </div>
-                    <!-- Container for Profile icon (or sign-in button) -->
-                    <div id="topNavProfile">
-                        <a href="">
-                            <!-- FIXME: Insert sign-in button here -->
-                        </a>
+                    <!-- Container for Icon and Button Links -->
+                    <div id="appIconNav">
+                        <!-- Container for full Apps Menu -->
+                        <div id="appsMenu">
+                            <a href="">
+                                <!-- FIXME: Insert Menu Icon here -->
+                            </a>
+                        </div>
+                        <!-- Container for Profile icon (or sign-in button) -->
+                        <div id="topNavProfile">
+                            <a href="">
+                                <!-- FIXME: Insert sign-in button here -->
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Google logo -->
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" />
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <!-- Note: main content varies depending on the page -->
+    <main>
+        <!-- Container for Google logo or doodle -->
+        <section id="logoContainer">
+            <div id="logoDiv">
+                <!-- Google logo -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" />
+            </div>
+        </section>
+        <!-- Container for search bar and search-related buttons -->
+        <section id="searchContainer">
+            <!-- Search form -->
+            <form id="search">
+                <!-- div consisting of search form's elements -->
+                <div id="searchElements">
+                    <!-- Search bar and related icons -->
+                    <div id="barContainer">
+                    <!-- FIXME: insert magnifying glass icon -->
+                    <!-- FIXME: insert text box input -->
+                    <!-- FIXME: insert microphone icon -->  
+                    </div>
+                    <!-- Search form buttons -->
+                    <div id="searchBtns">
+                        <!-- FIXME: Insert "Google Search" button -->
+                        <!-- FIXME: Insert "I'm Feeling Lucky" button -->
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- Bottom section (FIXME: rename div to something more descriptive of its purpose)-->
+        <section id="btmSection">
+            <!-- On Google's original website, this section is empty space in desktop view, but displays news and tiles on mobile devices -->
+        </section>
+    </main>
+    <!-- Footer -->
+    <!-- Note: footer is consistent across all the site's pages -->
+    <footer>
+        <!-- FIXME: insert footer's DIV structure -->
+        <!-- FIXME: insert "Carbon neutral since 2007" text with icon -->
+        <!-- FIXME: insert footer's text links -->
+    </footer>
 </body>
 </html>
