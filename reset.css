@@ -2,7 +2,15 @@
     Author: America Murray
     Date Created: 07/30/2021
     Title: Layout stylesheet for Google-Homepage
-    Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.  This stylesheet focuses on creating the same starting point, style-wise, for all pages.
+    Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.  This stylesheet focuses on creating the same starting point, style-wise, across browsers.
 */
 
 
+/*
+    ATTRIBUTIONS
+    ----------------
+
+        Other stylesheets I looked at, took inspiration from, or got ideas from:
+            Normalize.css (https://ageek.dev/normalize-css)
+        
+*/
