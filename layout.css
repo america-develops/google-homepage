@@ -11,7 +11,15 @@
 /*  STYLESHEET
     --------------- 
     Attributes pulled from analyze the computed styles for elements (ignoring styles that come from "user agent stylesheet" since that is a stylesheet applied by the browser itself)
-    */
+*/
+
+    /* Set height and minimum width for html and body (I left out the margin:0 and padding:0 because it's already included in my reset stylesheet */
+    html, body {
+        min-width: 400px;
+        height: 100%;
+    }
+
+
 
 
 

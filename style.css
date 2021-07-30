@@ -23,9 +23,26 @@
 
 
 
-    /*  STYLESHEET
+/*  STYLESHEET
     ---------------
 */
+
+    /*  TYPOGRAPHY
+        ---------------
+    */
+        body, input, button {
+            font-size: 14px;
+            font-family: Roboto, arial, sans-serif;
+        }
+
+
+    /*  COLORS
+        ---------------
+    */
+        body, input, button {
+            color: #222;
+            background-color: #fff;
+        }
 
 
 
