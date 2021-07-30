@@ -1,7 +1,25 @@
-/*
-    Author: America Murray
-    Date Created: 07/30/2021
-    Title: Layout stylesheet for Google-Homepage
-    Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.  This stylesheet focuses on setting up the general layout of the page (ex: flexboxes, alignment, positioning).
+/*  FILE INFORMATION
+    -----------------
+        Author: America Murray
+        Date Created: 07/30/2021
+        Title: Layout stylesheet for Google-Homepage
+
+        Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.  This stylesheet focuses on setting up the general layout of the page (ex: flexboxes, alignment, positioning).
 */
 
+
+/*  STYLESHEET
+    --------------- 
+    Attributes pulled from analyze the computed styles for elements (ignoring styles that come from "user agent stylesheet" since that is a stylesheet applied by the browser itself)
+    */
+
+
+
+/*  ATTRIBUTIONS
+    ----------------
+
+        Other stylesheets I looked at, took inspiration from, or got ideas from:
+            Google.com
+        
+        General information about reset stylesheets:
+*/
