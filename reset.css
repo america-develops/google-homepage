@@ -1,29 +1,53 @@
-/*
-    Author: America Murray
-    Date Created: 07/30/2021
-    Title: Layout stylesheet for Google-Homepage
-    Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.  This stylesheet focuses on creating the same starting point, style-wise, across browsers.
+/*  FILE INFORMATION
+    -----------------
+        Author: America Murray
+        Date Created: 07/30/2021
+        Title: Layout stylesheet for Google-Homepage
+        
+        Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.  This stylesheet focuses on creating the same starting point, style-wise, across browsers.
 */
 
-/* FIXME: later change from using universal selector to only elements the style attributes apply to (to make page loading more efficient) */
-/* Reset margin and padding for all elements */
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    vertical-align: baseline;
-}
+
+/*  STYLESHEET
+    --------------- */
+
+    /*  List of elements currently in index.html 
+        -----------------------------
+            a, body, div, footer, form, header, html, main, nav, path, section, span, svg
+    */
+
+    /* Reset margin, padding, border, outline, font-size, vertical-alignment, and background for applicable elements */
+    a, body, div, footer, form, header, html, main, nav, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: 0;
+        background: transparent;
+    }
+
+    /* Set line-height for body text */
+    body {
+        line-height: 1;
+    }
+
+    /* Ensure these elements are displayed as block elements for older browsers */
+    footer, header, main, nav, section {
+        display: block;
+    }
 
 
-/*
-    ATTRIBUTIONS
+
+
+
+/*  ATTRIBUTIONS
     ----------------
 
         Other stylesheets I looked at, took inspiration from, or got ideas from:
             minireset.css (https://github.com/jgthms/minireset.css)
             Normalize.css (https://ageek.dev/normalize-css)
+            Reset CSS (https://meyerweb.com/eric/tools/css/reset/)
         
         General information about reset stylesheets:
             How to Do the Best CSS Reset When Designing a Website (https://owlcation.com/stem/how-to-do-the-best-CSS-reset)
