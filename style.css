@@ -1,13 +1,40 @@
-/*
-    Author: America Murray
-    Date Created: 07/30/2021
-    Title: Stylesheet for Google-Homepage
-    Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.
+/*  FILE INFORMATION
+    -----------------
+
+        Author: America Murray
+        Date Created: 07/30/2021
+        Title: Stylesheet for Google-Homepage
+
+        Description: Part of the 'Google-Homepage' project assignment from the The Odin Project (https://www.theodinproject.com/).  The aim is to make a page that looks like the Google homepage through analyzing the page elemenents via Chrome's Developer Tools.
 */
 
 
-/* First import reset stylesheet */
-@import url("reset.css");
 
-/* Import layout stylesheet */
-@import url("layout.css");
+/*  IMPORT
+    ---------------- 
+    Imports of other stylesheets, fonts, etc. will go here
+*/
+    /* First import reset stylesheet */
+    @import url("reset.css");
+
+    /* Import layout stylesheet */
+    @import url("layout.css");
+
+
+
+
+    /*  STYLESHEET
+    ---------------
+*/
+
+
+
+
+/*  ATTRIBUTIONS
+    ----------------
+
+        Other stylesheets I looked at, took inspiration from, or got ideas from:
+            Google.com
+        
+        General information about reset stylesheets:
+*/
