@@ -8,3 +8,6 @@
 
 /* First import reset stylesheet */
 @import url("reset.css");
+
+/* Import layout stylesheet */
+@import url("layout.css");
