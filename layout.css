@@ -20,6 +20,28 @@
     }
 
 
+    /*  CLASS AND ID BASED STYLES
+        ---------------
+    */
+
+    #bodyDiv {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    /* FIXME: change class name (currently grabbed from inspecting Google html and css) */
+    .o3j99 {
+        flex-shrink: 0;
+        box-sizing: border-box;
+    }
+
+    #topNav {
+        height: 60px;
+    }
+    
+
+
 
 
 
