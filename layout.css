@@ -77,7 +77,49 @@
                 margin: 0 auto;
                 width: auto;
                 max-width: 584px;
+                /* Styles taken from .SDkEP */
+                flex: 1;
+                display: flex;
+                padding: 5px 8px 0 16px;
+                /* FIXME: move padding-left into padding property */
+                padding-left: 14px;
             }
+
+                /* Nested in #barContainer */
+                /* #magIconDiv corresponds to these classes: .iblpc */
+                #magIconDiv {
+                    display: flex;
+                    align-items: center;
+                    padding-right:13px;
+                    margin-top: -5px;
+                }
+
+                #magIconDiv > div {
+                    /* Styles taken from .CcAdNb */
+                    margin: auto;
+                }
+
+                #magIconDiv span {
+                    /* Styles taken from .QCzoEc */
+                    margin-top: 3px;
+                    height: 20px;
+                    width: 20px;                    
+                }
+    
+    span.z1asCe {
+        display: inline-block;
+        fill: currentColor;
+        height: 24px;
+        line-height: 24px;
+        position: relative;
+        width: 24px;
+    }
+
+    span.z1asCe svg {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
 
     #btmSection {
         flex-grow: 1;
@@ -95,5 +137,5 @@
         Other stylesheets I looked at, took inspiration from, or got ideas from:
             Google.com
         
-        General information about reset stylesheets:
+        General information about stylesheets:
 */

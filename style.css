@@ -72,6 +72,11 @@
             box-shadow: 0 1px 6px rgba(32,33,36,.28);
         }
 
+            /* Nested in #barContiner */
+            #magIconDiv span {
+                color: #9aa0a6;
+            }
+
         #pageFoot {
             background: #f2f2f2;
         }
@@ -86,5 +91,5 @@
         Other stylesheets I looked at, took inspiration from, or got ideas from:
             Google.com
         
-        General information about reset stylesheets:
+        General information about stylesheets:
 */
