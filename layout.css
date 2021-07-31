@@ -57,6 +57,16 @@
         padding: 20px;
     }
 
+        /* Nested in #searchContainer */
+        #searchElements {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 6px;
+            width: 484px;
+            width: auto;
+            max-width: 584px;
+        }
+
     #btmSection {
         flex-grow: 1;
     }
