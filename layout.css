@@ -105,6 +105,33 @@
                     height: 20px;
                     width: 20px;                    
                 }
+
+                #searchBarDiv {
+                    display: flex;
+                    flex: 1;
+                    flex-wrap: wrap;
+                }
+
+                #searchBarDiv > div {
+                    /* Keeping transparent color on layout sheet because this is an empty div to adjust spacing */
+                    color: transparent;
+                    flex: 100%;
+                    white-space: pre;
+                    height: 34px;
+                }
+
+                #searchBarDiv > input {
+                    /* Styles taken from .gLFyf */
+                    margin: 0;
+                    padding: 0;
+                    word-wrap: break-word;
+                    display: flex;
+                    flex: 100%;
+                    -webkit-tap-highlight-color: transparent;
+                    margin-top: -37px;
+                    height: 34px;
+                    font-size: 16px;
+                }
     
     span.z1asCe {
         display: inline-block;

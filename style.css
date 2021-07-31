@@ -45,6 +45,13 @@
             border-radius: 24px;
         }
 
+            /* Nested in #barContainer */
+            #searchBarDiv > input {
+                /* Styles taken from .gLFyf */
+                outline: none;
+                border: none;         
+            }
+
 
 
     /*  COLORS
@@ -75,6 +82,13 @@
             /* Nested in #barContiner */
             #magIconDiv span {
                 color: #9aa0a6;
+            }
+
+            #searchBarDiv > input {
+                /* Styles taken from .gLFyf */
+                background-color: transparent;
+                color: rgba(0,0,0,.87);
+                
             }
 
         #pageFoot {
