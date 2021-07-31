@@ -58,14 +58,26 @@
     }
 
         /* Nested in #searchContainer */
+        /* #searchElements corresponds to .A8SBwf class from original Google html/css */
         #searchElements {
             position: relative;
             margin: 0 auto;
             padding-top: 6px;
-            width: 484px;
             width: auto;
             max-width: 584px;
         }
+
+            /* Nested in #searchElements */
+            /* #barContainer corresponds to .RNNXgb and .SDkEP classes from original Google html/css */
+            #barContainer {
+                /* Styles taken from .RNNXgb */
+                display: flex;
+                z-index: 3;
+                height: 44px;
+                margin: 0 auto;
+                width: auto;
+                max-width: 584px;
+            }
 
     #btmSection {
         flex-grow: 1;
