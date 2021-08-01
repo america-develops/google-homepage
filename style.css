@@ -27,7 +27,7 @@
     ---------------
 */
 
-    /*  TYPOGRAPHY AND BORDERS
+    /*  TYPOGRAPHY, SYMBOLS, AND BORDERS
         ---------------
     */
         body, input, button {
@@ -51,6 +51,15 @@
                 outline: none;
                 border: none;         
             }
+
+                /* Nested inside #inputCtrlDiv */
+                #micIconDiv {
+                    /* Styles taken from .XDyW0e */
+                    cursor: pointer;
+                    border: 0;
+                    outline: none;
+
+                }
 
 
 
@@ -90,6 +99,12 @@
                 color: rgba(0,0,0,.87);
                 
             }
+
+                /* Nested inside #inputCtrlDiv */
+                #micIconDiv {
+                    /* Styles taken from .XDyW0e */
+                    background: transparent;
+                }
 
         #pageFoot {
             background: #f2f2f2;

@@ -132,6 +132,33 @@
                     height: 34px;
                     font-size: 16px;
                 }
+
+                #inputCtrlDiv {
+                    /* Styles taken from .dRYYxd */
+                    display:flex;
+                    flex: 0 0 auto;
+                    margin-top: -5px;
+                    align-items: stretch;
+                    flex-direction: row;
+                }
+
+                    /* Nested inside #inputCtrlDiv */
+                    #micIconDiv {
+                        /* Styles taken from .XDyW0e */
+                        flex: 1 0 auto;
+                        display: flex;
+                        align-items: center;
+                        padding: 0 8px;
+                        width: 24px;
+                        line-height: 44px;
+                    }
+
+                    #micIconDiv > svg {
+                        /* Styles taken from .goxjub */
+                        height: 24px;
+                        width: 24px;
+                        vertical-align: middle;
+                    }
     
     span.z1asCe {
         display: inline-block;
