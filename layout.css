@@ -66,10 +66,15 @@
             height: calc(100% - 92px);
         }
 
-        #logoDiv > img {
-            /* Styles I added */
-            margin-top: auto;
-        }
+            /* Nested in #logoDiv */
+            #logoImg {
+                /* Styles taken from .lnXdpd */
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center bottom;
+                width: auto;
+            }
 
     #searchContainer {
         max-height: 160px;
