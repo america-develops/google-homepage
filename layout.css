@@ -152,7 +152,6 @@
                         align-items: center;
                         padding: 0 8px;
                         width: 24px;
-                        line-height: 44px;
                     }
 
                     #micIconDiv > svg {
@@ -161,12 +160,32 @@
                         width: 24px;
                         vertical-align: middle;
                     }
+                
+            #searchBtnsDiv {
+                /* Styles taken from .FPdoLc */
+                padding-top: 18px;
+                top:53px;
+                z-index: 0;
+            }
+
+            .lJ9FBc {
+                /* Styles taken from .LJ9FBc */
+                height: 70px;
+            }
+
+            .lJ9FBc input[type="submit"] {
+                margin: 11px 4px;
+                padding: 0 16px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                user-select: none;
+            }
+    
     
     span.z1asCe {
         display: inline-block;
-        fill: currentColor;
         height: 24px;
-        line-height: 24px;
         position: relative;
         width: 24px;
     }

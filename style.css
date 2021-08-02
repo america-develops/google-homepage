@@ -35,31 +35,50 @@
             font-family: Roboto, arial, sans-serif;
         }
 
+
         /*  CLASS-BASED AND ID BASED STYLES
             ---------------
         */
-        #barContainer {
-            /* Styles taken from .RNNXgb */
-            border-width: 1px;
-            border-style: solid;
-            border-radius: 24px;
-        }
 
-            /* Nested in #barContainer */
-            #searchBarDiv > input {
-                /* Styles taken from .gLFyf */
-                outline: none;
-                border: none;         
+        /* Nested in #searchContainer */
+            /* Nested in #searchElements */
+            #barContainer {
+                /* Styles taken from .RNNXgb */
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 24px;
             }
 
-                /* Nested inside #inputCtrlDiv */
-                #micIconDiv {
-                    /* Styles taken from .XDyW0e */
-                    cursor: pointer;
-                    border: 0;
+                /* Nested in #barContainer */
+                #searchBarDiv > input {
+                    /* Styles taken from .gLFyf */
                     outline: none;
-
+                    border: none;         
                 }
+
+                    /* Nested inside #inputCtrlDiv */
+                    #micIconDiv {
+                        /* Styles taken from .XDyW0e */
+                        cursor: pointer;
+                        border: 0;
+                        outline: none;
+                        line-height: 44px;
+                    }
+
+            .lJ9FBc input[type="submit"] {
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 4px;
+                font-family: Roboto, arial, sans-serif;
+                font-size: 14px;
+                cursor: pointer;
+                line-height: 27px;
+            }
+    
+    
+        span.z1asCe {
+            line-height: 24px;
+        }
 
 
 
@@ -71,40 +90,57 @@
             background-color: #fff;
         }
 
+
         /*  CLASS-BASED AND ID BASED STYLES
             ---------------
         */
-        #barContainer {
-            /* Styles taken from .RNNXgb */
-            background: #fff;
-            border-color: #dfe1e5;
-            /* box-shadow color can't be separated from box-shadow property */
-            box-shadow: none;
-        }
 
-        #barContainer:hover {
-            border-color: rgba(223,225,229,0);
-            /* box-shadow color can't be separated from box-shadow property */
-            box-shadow: 0 1px 6px rgba(32,33,36,.28);
-        }
-
-            /* Nested in #barContiner */
-            #magIconDiv span {
-                color: #9aa0a6;
+        /* Nested in #searchContainer */
+            /* Nested in #searchElements */
+            #barContainer {
+                /* Styles taken from .RNNXgb */
+                background: #fff;
+                border-color: #dfe1e5;
+                /* box-shadow color can't be separated from box-shadow property */
+                box-shadow: none;
             }
 
-            #searchBarDiv > input {
-                /* Styles taken from .gLFyf */
-                background-color: transparent;
-                color: rgba(0,0,0,.87);
-                
+            #barContainer:hover {
+                border-color: rgba(223,225,229,0);
+                /* box-shadow color can't be separated from box-shadow property */
+                box-shadow: 0 1px 6px rgba(32,33,36,.28);
             }
 
-                /* Nested inside #inputCtrlDiv */
-                #micIconDiv {
-                    /* Styles taken from .XDyW0e */
-                    background: transparent;
+                /* Nested in #barContiner */
+                #magIconDiv span {
+                    color: #9aa0a6;
                 }
+
+                #searchBarDiv > input {
+                    /* Styles taken from .gLFyf */
+                    background-color: transparent;
+                    color: rgba(0,0,0,.87);
+                    
+                }
+
+                    /* Nested inside #inputCtrlDiv */
+                    #micIconDiv {
+                        /* Styles taken from .XDyW0e */
+                        background: transparent;
+                    }
+
+            .lJ9FBc input[type="submit"] {
+                background-color: #f8f9fa;
+                color: #3c4043;
+                border-color: #f8f9fa;
+            }
+    
+    
+        span.z1asCe {
+            fill: currentColor;
+        }
+
+        
 
         #pageFoot {
             background: #f2f2f2;
