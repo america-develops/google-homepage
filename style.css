@@ -35,6 +35,10 @@
             font-family: Roboto, arial, sans-serif;
         }
 
+        a {
+            text-decoration: none;
+        }
+
 
         /*  CLASS-BASED AND ID BASED STYLES
             ---------------
