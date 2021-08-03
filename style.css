@@ -74,6 +74,17 @@
                 cursor: pointer;
                 line-height: 27px;
             }
+
+            .lJ9FBc input[type="submit"]:hover {
+                border-width: 1px;
+                border-style: solid;
+            }
+
+            .lJ9FBc input[type="submit"]:focus {
+                border-width: 1px;
+                border-style: solid;
+                outline: none;
+            }
     
     
         span.z1asCe {
@@ -133,6 +144,17 @@
                 background-color: #f8f9fa;
                 color: #3c4043;
                 border-color: #f8f9fa;
+            }
+
+            .lJ9FBc input[type="submit"]:hover {
+                box-shadow:0 1px 1px rgb(0,0,0,.1);
+                background-color: #f8f9fa;
+                color: #202124;
+                border-color: #dadce0;
+            }
+
+            .lJ9FBc input[type="submit"]:focus {
+                border-color: #42854f;
             }
     
     
