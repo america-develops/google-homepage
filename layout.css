@@ -43,6 +43,24 @@
         padding: 6px;
     }
 
+        /* Nested in #topNav */
+        a.MV3Tnb {
+            display: inline-block;
+            padding: 5px;
+            margin: 0 5px;
+            color: #222;
+        }
+
+        a.MV3Tnb:first-of-type {
+            margin-left: 15px;
+        }
+
+        #appsNavCon {
+            /* Styles taken form .LX3sZb */
+            display: inline-block;
+            flex-grow: 1;
+        }
+
     #logoContainer {
         min-height: 150px;
         max-height: 290px;
