@@ -84,6 +84,7 @@
                 display: -webkit-flex;
                 display: flex;
                 -webkit-user-select: none;
+                user-select: none;
                 /* Styles taken from .gb_Wd */
                 -webkit-box-sizing: border-box;
                 box-sizing: border-box;
