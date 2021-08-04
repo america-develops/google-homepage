@@ -48,10 +48,16 @@
             display: inline-block;
             padding: 5px;
             margin: 0 5px;
-            color: #222;
         }
 
         a.MV3Tnb:first-of-type {
+            margin-left: 15px;
+        }
+
+        a.gb_f {
+            display: inline-block;
+            vertical-align: middle;
+            /* Styles I added */
             margin-left: 15px;
         }
 
@@ -74,7 +80,6 @@
             /* Nested in #appsNavCon */
             #appsNav {
                 /* Styles taken from .gb_Id */
-                height: 48px;
                 vertical-align: middle;
                 white-space: nowrap;
                 -webkit-box-align: center;
@@ -107,6 +112,44 @@
                     /* Styles taken from .gb_8d */
                     padding-right: 15px;
                 }
+                #appIconNav {
+                    position: relative;
+                    float: right;
+                }
+                    /* Nested in #appIconNav */
+                    #appsMenu {
+                        /* Styles taken from .gb_bd */
+                        display: inline-block;
+                        vertical-align: middle;
+                        padding: 4px;
+                    }
+                    #appsMenu > a {
+                        /* Styles taken from .gb_zf */
+                        position: relative;
+                        /* Styltes taken from .gb_C */
+                        display: inline-block;
+                        outline: none;
+                        vertical-align: middle;
+                        -webkit-border-radius: 2px;
+                        border-radius: 2px;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        height: 40px;
+                        width: 40px;
+                        padding: 8px;
+                        background-position: -64px -29px;
+                        opacity: 1;
+                        color: #000;
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                    #appsMenu > a:hover, #appsMenu > a:focus {
+                        opacity: 1;
+                    }
+                    #appsMenu svg {
+                        fill: currentColor;
+                        color: #5f6368;
+                    }
 
     #logoContainer {
         min-height: 150px;
