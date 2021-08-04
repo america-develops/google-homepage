@@ -56,9 +56,19 @@
         }
 
         #appsNavCon {
-            /* Styles taken form .LX3sZb */
+            /* Styles taken from .LX3sZb */
             display: inline-block;
             flex-grow: 1;
+            /* Styles taken from .gb_pa */
+            min-width: 320px;
+            position: relative;
+            /* Styles taken from .gb_Zd */
+            height: 48px;
+            /* Styles taken from .gb_Va:not(.gb_Ed) */
+            z-index: 986;
+            /* Styles taken from .gb_pa.gb_Zd */
+            min-width: initial;
+            min-width: auto;
         }
 
     #logoContainer {

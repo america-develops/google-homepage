@@ -39,10 +39,23 @@
             text-decoration: none;
         }
 
+        a:hover, a:active {
+            text-decoration: underline;
+        }
+
 
         /*  CLASS-BASED AND ID BASED STYLES
             ---------------
         */
+
+        /* Nested in #topNav */
+        #appsNavCon {
+            /* Styles taken from .gb_Va:not(.gb_Ed) */
+            font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+            /* Styles taken from .gb_pa */
+            -webkit-transition: box-shadow 250ms;
+            transition: box-shadow 250ms;
+        }
 
         /* Nested in #searchContainer */
             /* Nested in #searchElements */
@@ -109,6 +122,12 @@
         /*  CLASS-BASED AND ID BASED STYLES
             ---------------
         */
+
+        /* Nested in #topNav */
+        #appsNavCon {
+            /* Styles taken from .gb_pa */
+            color: black;
+        }
 
         /* Nested in #searchContainer */
             /* Nested in #searchElements */
