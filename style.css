@@ -57,6 +57,13 @@
             transition: box-shadow 250ms;
         }
 
+            /* Nested in #appsNavCon */
+                /* Nested in #appsNav */
+                #appTextNav {
+                    /* Styles taken from .gb_8d */
+                    font-family: arial, sans-serif;
+                    line-height: normal;
+
         /* Nested in #searchContainer */
             /* Nested in #searchElements */
             #barContainer {

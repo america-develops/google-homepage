@@ -101,6 +101,12 @@
                 padding-left: 0px;
             }
 
+                /* Nested in #appsNav */
+                #appTextNav {
+                    /* Styles taken from .gb_8d */
+                    padding-right: 15px;
+                }
+
     #logoContainer {
         min-height: 150px;
         max-height: 290px;
