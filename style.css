@@ -49,6 +49,7 @@
         */
 
         /* Nested in #topNav */
+
         #appsNavCon {
             /* Styles taken from .gb_Va:not(.gb_Ed) */
             font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
@@ -132,6 +133,14 @@
         */
 
         /* Nested in #topNav */
+        a.MV3Tnb {
+            color: #202124;
+        }
+        
+        a.gb_f {
+            color: rgba(0,0,0,0.87);
+        }
+        
         #appsNavCon {
             /* Styles taken from .gb_pa */
             color: black;
