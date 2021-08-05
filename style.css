@@ -173,77 +173,69 @@
             ---------------
         */
 
-        /* Nested in #topNav */
-        a.MV3Tnb {
-            color: #202124;
-        }
-        
-        a.gb_f {
-            color: rgba(0,0,0,0.87);
-        }
-
-        #appsNavCon {
-            /* Styles taken from .gb_pa */
-            color: black;
-        }
-
-        /* Nested in #searchContainer */
-            /* Nested in #searchElements */
-            #barContainer {
-                /* Styles taken from .RNNXgb */
-                background: #fff;
-                border-color: #dfe1e5;
-                /* box-shadow color can't be separated from box-shadow property */
-                box-shadow: none;
-            }
-
-            #barContainer:hover {
-                border-color: rgba(223,225,229,0);
-                /* box-shadow color can't be separated from box-shadow property */
-                box-shadow: 0 1px 6px rgba(32,33,36,.28);
-            }
-
-                /* Nested in #barContiner */
-                #magIconDiv span {
-                    color: #9aa0a6;
-                }
-
-                #searchBarDiv > input {
-                    /* Styles taken from .gLFyf */
-                    background-color: transparent;
-                    color: rgba(0,0,0,.87);
-                    
-                }
-
-                    /* Nested inside #inputCtrlDiv */
-                    #micIconDiv {
-                        /* Styles taken from .XDyW0e */
-                        background: transparent;
-                    }
-
-            .lJ9FBc input[type="submit"] {
-                background-color: #f8f9fa;
-                color: #3c4043;
-                border-color: #f8f9fa;
-            }
-
-            .lJ9FBc input[type="submit"]:hover {
-                box-shadow:0 1px 1px rgb(0,0,0,.1);
-                background-color: #f8f9fa;
+        /* #topNav */
+            /* Nested in #topNav */
+            a.MV3Tnb {
                 color: #202124;
-                border-color: #dadce0;
+            }            
+            a.gb_f {
+                color: rgba(0,0,0,0.87);
+            }
+            #appsNavCon {
+                /* Styles taken from .gb_pa */
+                color: black;
             }
 
-            .lJ9FBc input[type="submit"]:focus {
-                border-color: #42854f;
-            }
-    
-    
-        span.z1asCe {
-            fill: currentColor;
-        }
-
-        
+        /* #searchContainer */
+            /* Nested in #searchContainer */
+            /* #search form */
+                /* Nested in #search form */
+                /* #searchElements */
+                    /* Nested in #searchElements */
+                    #barContainer {
+                        /* Styles taken from .RNNXgb */
+                        background: #fff;
+                        border-color: #dfe1e5;
+                        /* box-shadow color can't be separated from box-shadow property */
+                        box-shadow: none;
+                    }
+                    #barContainer:hover {
+                        border-color: rgba(223,225,229,0);
+                        /* box-shadow color can't be separated from box-shadow property */
+                        box-shadow: 0 1px 6px rgba(32,33,36,.28);
+                    }
+                        /* Nested in #barContainer */
+                        #magIconDiv span {
+                            color: #9aa0a6;
+                            fill: currentColor;
+                        }
+                        #searchBarDiv > input {
+                            /* Styles taken from .gLFyf */
+                            background-color: transparent;
+                            color: rgba(0,0,0,.87);                            
+                        }     
+                        /* #inputCtrlDiv */                   
+                            /* Nested inside #inputCtrlDiv */
+                            #micIconDiv {
+                                /* Styles taken from .XDyW0e */
+                                background: transparent;
+                            }
+                    /* #searchBtnsDiv */
+                        /* Nested in #searchBtnsDiv */
+                        .lJ9FBc input[type="submit"] {
+                            background-color: #f8f9fa;
+                            color: #3c4043;
+                            border-color: #f8f9fa;
+                        }
+                        .lJ9FBc input[type="submit"]:hover {
+                            box-shadow:0 1px 1px rgb(0,0,0,.1);
+                            background-color: #f8f9fa;
+                            color: #202124;
+                            border-color: #dadce0;
+                        }
+                        .lJ9FBc input[type="submit"]:focus {
+                            border-color: #42854f;
+                        }        
 
         #pageFoot {
             background: #f2f2f2;
