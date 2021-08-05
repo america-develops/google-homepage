@@ -94,7 +94,6 @@
                 -webkit-box-sizing: border-box;
                 box-sizing: border-box;
                 height: 48px;
-                line-height: normal;
                 padding: 0 4px;
                 -webkit-flex: 0 0 auto;
                 flex: 0 0 auto;
@@ -129,10 +128,7 @@
                         position: relative;
                         /* Styltes taken from .gb_C */
                         display: inline-block;
-                        outline: none;
                         vertical-align: middle;
-                        -webkit-border-radius: 2px;
-                        border-radius: 2px;
                         -webkit-box-sizing: border-box;
                         box-sizing: border-box;
                         height: 40px;
@@ -141,8 +137,6 @@
                         background-position: -64px -29px;
                         opacity: 1;
                         color: #000;
-                        cursor: pointer;
-                        text-decoration: none;
                     }
                     #appsMenu > a:active {
                         background-color: rgba(60, 64, 67, 0.12);
@@ -150,8 +144,6 @@
                     #appsMenu > a:hover, #appsMenu > a:focus {
                         opacity: 1;
                         background-color: rgba(60, 64, 67, 0.08);
-                        outline: none;
-                        border-radius: 50%;
                     }
                     #appsMenu svg {
                         fill: currentColor;
@@ -160,31 +152,21 @@
                     #signIn {
                         /* Styles taken from .gb_3 */
                         display: inline-block;
-                        outline: none;
                         /* Styles taken from .gb_9d */
-                        font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-                        font-weight: 500;
-                        font-size: 14px;
-                        letter-spacing: 0.25px;
-                        line-height: 16px;
                         margin-right: 8px;
                         min-width: 96px;
                         padding: 9px 23px;
                         text-align: center;
                         vertical-align: middle;
-                        -webkit-border-radius: 4px;
-                        border-radius: 4px;
                         -webkit-box-sizing: border-box;
                         box-sizing: border-box;
                         /* Style taken from .gb_9d:not(.gb_2) */
                         background: #1a73e8;
-                        border: 1px solid transparent;
+                        border-color: transparent;
                         /* Style taken from .gb_pa.gb_Zd .gb_9d */
                         margin-left: 8px;
                         /* Style taken from #gb a.gb_3.gb_3 */
                         color: #fff;
-                        /* Style taken from #gb a.gb_3.gb_3.gb_9d */
-                        cursor: pointer;
                     }
                     #signIn:hover {
                         /* Styles taken from .gb_3.gb_9d:hover */
@@ -193,7 +175,6 @@
                             0 1px 3px 1px rgb(66 133 244 / 15%);
                         box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%),
                             0 1px 3px 1px rgb(66 133 244 / 15%);
-                        text-decoration: none;
                     }
 
     #logoContainer {
