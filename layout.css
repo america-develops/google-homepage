@@ -376,6 +376,21 @@
     #btmSection {
         flex-grow: 1;
     }
+
+        /* Nested in #pageFoot */
+        #footContainer {
+            padding: 0 20px;
+        }
+        .KxwPGc {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        @media only screen and (max-width: 1200px) {
+            .KxwPGc {
+                justify-content: space-evenly;
+            }
+        }
     
     
 
