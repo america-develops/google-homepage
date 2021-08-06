@@ -29,354 +29,325 @@
         flex-direction: column;
         height: 100%;
     }
-
-    /* FIXME: change class name (currently grabbed from inspecting Google html and css) */
-    .o3j99 {
-        flex-shrink: 0;
-        box-sizing: border-box;
-    }
-
-    #topNav {
-        height: 60px;
-        display:flex;
-        align-items: center;
-        padding: 6px;
-    }
-
-        /* Nested in #topNav */
-        a.MV3Tnb {
-            display: inline-block;
-            padding: 5px;
-            margin: 0 5px;
+        /* Nested in #bodyDiv */
+        /* FIXME: change class name (currently grabbed from inspecting Google html and css) */
+        .o3j99 {
+            flex-shrink: 0;
+            box-sizing: border-box;
         }
-
-        a.MV3Tnb:first-of-type {
-            margin-left: 15px;
+        #topNav {
+            height: 60px;
+            display:flex;
+            align-items: center;
+            padding: 6px;
         }
-
-        a.gb_f {
-            display: inline-block;
-            vertical-align: middle;
-            /* Styles I added */
-            margin-left: 15px;
-        }
-
-        #appsNavCon {
-            /* Styles taken from .LX3sZb */
-            display: inline-block;
-            flex-grow: 1;
-            /* Styles taken from .gb_pa */
-            min-width: 320px;
-            position: relative;
-            /* Styles taken from .gb_Zd */
-            height: 48px;
-            /* Styles taken from .gb_Va:not(.gb_Ed) */
-            z-index: 986;
-            /* Styles taken from .gb_pa.gb_Zd */
-            min-width: initial;
-            min-width: auto;
-        }
-
-            /* Nested in #appsNavCon */
-            #appsNav {
-                /* Styles taken from .gb_Id */
+            /* Nested in #topNav */
+            a.MV3Tnb {
+                display: inline-block;
+                padding: 5px;
+                margin: 0 5px;
+            }
+            a.MV3Tnb:first-of-type {
+                margin-left: 15px;
+            }
+            a.gb_f {
+                display: inline-block;
                 vertical-align: middle;
-                white-space: nowrap;
-                -webkit-box-align: center;
-                -webkit-align-items: center;
-                align-items: center;
-                display: -webkit-box;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-user-select: none;
-                user-select: none;
-                /* Styles taken from .gb_Wd */
-                -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-                height: 48px;
-                padding: 0 4px;
-                -webkit-flex: 0 0 auto;
-                flex: 0 0 auto;
-                -webkit-box-pack: flex-end;
-                -webkit-justify-content: flex end;
-                justify-content: flex-end;
-                /* Styles taken from .gb_Zd .gb_Wd */
-                float: right;
-                /* Styles taken from .gb_Wd.gb_Xd, .gb_pa.gb_Qd .gb_Wd, .gb_pa.gb_qa:not(.gb_Zd) .gb_Wd */
-                padding-left: 0px;
-            }
-
-                /* Nested in #appsNav */
-                #appTextNav {
-                    /* Styles taken from .gb_8d */
-                    padding-right: 15px;
-                }
-                #appIconNav {
-                    position: relative;
-                    float: right;
-                }
-                    /* Nested in #appIconNav */
-                    #appsMenu {
-                        /* Styles taken from .gb_bd */
-                        display: inline-block;
-                        vertical-align: middle;
-                        padding: 4px;
-                    }
-                    /* FIXME: move properties to appropriate css file */
-                    #appsMenu > a {
-                        /* Styles taken from .gb_zf */
-                        position: relative;
-                        /* Styles taken from .gb_C */
-                        display: inline-block;
-                        vertical-align: middle;
-                        -webkit-box-sizing: border-box;
-                        box-sizing: border-box;
-                        height: 40px;
-                        width: 40px;
-                        padding: 8px;
-                        background-position: -64px -29px;
-                    }
-                    #signIn {
-                        /* Styles taken from .gb_3 */
-                        display: inline-block;
-                        /* Styles taken from .gb_9d */
-                        margin-right: 8px;
-                        min-width: 96px;
-                        padding: 9px 23px;
-                        text-align: center;
-                        vertical-align: middle;
-                        -webkit-box-sizing: border-box;
-                        box-sizing: border-box;
-                        /* Style taken from .gb_pa.gb_Zd .gb_9d */
-                        margin-left: 8px;
-                    }
-
-    #logoContainer {
-        min-height: 150px;
-        max-height: 290px;
-        height: calc(100% - 560px);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-        /* Nested in #LogoContainer */
-        #logoDiv {
-            /* Styles taken from .k1zIA */
-            height: 100%;
-            margin-top: auto;
-            /* Styles taken from .kKvsb */
-            max-height: 230px;
-            text-align: center;
-        }
-
-        #logoDiv > div {
-            /* Subtracting the height of the logo image */
-            height: calc(100% - 92px);
-        }
-
-            /* Nested in #logoDiv */
-            #logoImg {
-                /* Styles taken from .lnXdpd */
-                max-height: 100%;
-                max-width: 100%;
-                object-fit: contain;
-                object-position: center bottom;
-                width: auto;
-            }
-
-    #searchContainer {
-        max-height: 160px;
-        padding: 20px;
-    }
-
-        /* Nested in #searchContainer */
-        /* #searchElements corresponds to .A8SBwf class from original Google html/css */
-        #searchElements {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 6px;
-            width: auto;
-            max-width: 584px;
-        }
-
-            /* Nested in #searchElements */
-            /* #barContainer corresponds to .RNNXgb and .SDkEP classes from original Google html/css */
-            #barContainer {
-                /* Styles taken from .RNNXgb */
-                display: flex;
-                z-index: 3;
-                height: 44px;
-                margin: 0 auto;
-                width: auto;
-                max-width: 584px;
-                /* Styles taken from .SDkEP */
-                flex: 1;
-                display: flex;
-                padding: 5px 8px 0 16px;
-                /* FIXME: move padding-left into padding property */
-                padding-left: 14px;
                 /* Styles I added */
-                box-sizing: border-box;
+                margin-left: 15px;
             }
-
-                /* Nested in #barContainer */
-                /* #magIconDiv corresponds to these classes: .iblpc */
-                #magIconDiv {
-                    display: flex;
+            #appsNavCon {
+                /* Styles taken from .LX3sZb */
+                display: inline-block;
+                flex-grow: 1;
+                /* Styles taken from .gb_pa */
+                min-width: 320px;
+                position: relative;
+                /* Styles taken from .gb_Zd */
+                height: 48px;
+                /* Styles taken from .gb_Va:not(.gb_Ed) */
+                z-index: 986;
+                /* Styles taken from .gb_pa.gb_Zd */
+                min-width: initial;
+                min-width: auto;
+            }
+                /* Nested in #appsNavCon */
+                #appsNav {
+                    /* Styles taken from .gb_Id */
+                    vertical-align: middle;
+                    white-space: nowrap;
+                    -webkit-box-align: center;
+                    -webkit-align-items: center;
                     align-items: center;
-                    padding-right:13px;
-                    margin-top: -5px;
-                }
-
-                #magIconDiv > div {
-                    /* Styles taken from .CcAdNb */
-                    margin: auto;
-                }
-
-                #magIconDiv span {
-                    /* Styles taken from .QCzoEc */
-                    margin-top: 3px;
-                    height: 20px;
-                    width: 20px;                    
-                }
-
-                #searchBarDiv {
+                    display: -webkit-box;
+                    display: -webkit-flex;
                     display: flex;
-                    flex: 1;
-                    flex-wrap: wrap;
-                }
-
-                #searchBarDiv > div {
-                    /* Keeping transparent color on layout sheet because this is an empty div to adjust spacing */
-                    color: transparent;
-                    flex: 100%;
-                    white-space: pre;
-                    height: 34px;
-                }
-
-                #searchBarDiv > input {
-                    /* Styles taken from .gLFyf */
-                    margin: 0;
-                    padding: 0;
-                    word-wrap: break-word;
-                    display: flex;
-                    flex: 100%;
-                    -webkit-tap-highlight-color: transparent;
-                    margin-top: -37px;
-                    height: 34px;
-                    font-size: 16px;
-                }
-
-                #inputCtrlDiv {
-                    /* Styles taken from .dRYYxd */
-                    display:flex;
+                    -webkit-user-select: none;
+                    user-select: none;
+                    /* Styles taken from .gb_Wd */
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    height: 48px;
+                    padding: 0 4px;
+                    -webkit-flex: 0 0 auto;
                     flex: 0 0 auto;
-                    margin-top: -5px;
-                    align-items: stretch;
-                    flex-direction: row;
+                    -webkit-box-pack: flex-end;
+                    -webkit-justify-content: flex end;
+                    justify-content: flex-end;
+                    /* Styles taken from .gb_Zd .gb_Wd */
+                    float: right;
+                    /* Styles taken from .gb_Wd.gb_Xd, .gb_pa.gb_Qd .gb_Wd, .gb_pa.gb_qa:not(.gb_Zd) .gb_Wd */
+                    padding-left: 0px;
                 }
-
-                    /* Nested inside #inputCtrlDiv */
-                    #micIconDiv {
-                        /* Styles taken from .XDyW0e */
-                        flex: 1 0 auto;
-                        display: flex;
-                        align-items: center;
-                        padding: 0 8px;
-                        width: 24px;
+                    /* Nested in #appsNav */
+                    #appTextNav {
+                        /* Styles taken from .gb_8d */
+                        padding-right: 15px;
                     }
-
-                    #micIconDiv > svg {
-                        /* Styles taken from .goxjub */
-                        height: 24px;
-                        width: 24px;
-                        vertical-align: middle;
+                    #appIconNav {
+                        position: relative;
+                        float: right;
                     }
-                
-            #searchBtnsDiv {
-                /* Styles taken from .FPdoLc */
-                padding-top: 18px;
-                top:53px;
-                z-index: 0;
-            }
-
-            .lJ9FBc {
-                /* Styles taken from .LJ9FBc */
-                height: 70px;
-            }
-
-            .lJ9FBc input[type="submit"] {
-                margin: 11px 4px;
-                padding: 0 16px;
-                height: 36px;
-                min-width: 54px;
-                text-align: center;
-                user-select: none;
-            }
-    
-    
-    span.z1asCe {
-        display: inline-block;
-        height: 24px;
-        position: relative;
-        width: 24px;
-    }
-
-    span.z1asCe svg {
-        display: block;
-        height: 100%;
-        width: 100%;
-    }
-
-    #btmSection {
-        flex-grow: 1;
-    }
-
-        /* Nested in #pageFoot */
-        .KxwPGc {
+                        /* Nested in #appIconNav */
+                        #appsMenu {
+                            /* Styles taken from .gb_bd */
+                            display: inline-block;
+                            vertical-align: middle;
+                            padding: 4px;
+                        }
+                        #appsMenu > a {
+                            /* Styles taken from .gb_zf */
+                            position: relative;
+                            /* Styles taken from .gb_C */
+                            display: inline-block;
+                            vertical-align: middle;
+                            -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                            height: 40px;
+                            width: 40px;
+                            padding: 8px;
+                            background-position: -64px -29px;
+                        }
+                        #signIn {
+                            /* Styles taken from .gb_3 */
+                            display: inline-block;
+                            /* Styles taken from .gb_9d */
+                            margin-right: 8px;
+                            min-width: 96px;
+                            padding: 9px 23px;
+                            text-align: center;
+                            vertical-align: middle;
+                            -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                            /* Style taken from .gb_pa.gb_Zd .gb_9d */
+                            margin-left: 8px;
+                        }
+        #logoContainer {
+            min-height: 150px;
+            max-height: 290px;
+            height: calc(100% - 560px);
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
         }
-        #footContainer {
-            padding: 0 20px;
+            /* Nested in #LogoContainer */
+            #logoDiv {
+                /* Styles taken from .k1zIA */
+                height: 100%;
+                margin-top: auto;
+                /* Styles taken from .kKvsb */
+                max-height: 230px;
+                text-align: center;
+            }
+            #logoDiv > div {
+                /* Subtracting the height of the logo image */
+                height: calc(100% - 92px);
+            }
+                /* Nested in #logoDiv */
+                #logoImg {
+                    /* Styles taken from .lnXdpd */
+                    max-height: 100%;
+                    max-width: 100%;
+                    object-fit: contain;
+                    object-position: center bottom;
+                    width: auto;
+                }
+        #searchContainer {
+            max-height: 160px;
+            padding: 20px;
         }
-            /* Nested in #footContainer */
-            #footNavLeft {
-                justify-content: flex-start;
-                min-width: 30%;
-                order: 1;
-            }
-            #carbMsgCont {
-                order: 2;
-            }
-            #carbMsgCont img {
-                height: 14px;
-                margin-right: 6px;
-            }
-            #footNavRight {
-                justify-content: flex-end;
-                min-width: 30%;
-                order: 3;
-            }
-            .pHiOh {
-                display: block;
-                padding: 15px;
-                white-space: nowrap;
-            }
-            a.pHiOh {
-                color: #70757a;
-            }
-        @media only screen and (max-width: 1200px) {
+            /* Nested in #searchContainer */
+            /* #search form */
+                /* Nested in #search form */
+                #searchElements {
+                    /* Styles taken from .A8SBwf class */
+                    position: relative;
+                    margin: 0 auto;
+                    padding-top: 6px;
+                    width: auto;
+                    max-width: 584px;
+                }
+                    /* Nested in #searchElements */
+                    #barContainer {
+                        /* Styles taken from .RNNXgb */
+                        display: flex;
+                        z-index: 3;
+                        height: 44px;
+                        margin: 0 auto;
+                        width: auto;
+                        max-width: 584px;
+                        /* Styles taken from .SDkEP */
+                        flex: 1;
+                        display: flex;
+                        padding: 5px 8px 0 16px;
+                        /* FIXME: move padding-left into padding property */
+                        padding-left: 14px;
+                        /* Styles I added */
+                        box-sizing: border-box;
+                    }
+                        /* Nested in #barContainer */
+                        #magIconDiv {
+                            /* Styles taken from .iblpc */
+                            display: flex;
+                            align-items: center;
+                            padding-right:13px;
+                            margin-top: -5px;
+                        }
+                        #magIconDiv > div {
+                            /* Styles taken from .CcAdNb */
+                            margin: auto;
+                        }
+                        #magIconDiv span {
+                            /* Styles taken from .QCzoEc */
+                            margin-top: 3px;
+                            height: 20px;
+                            width: 20px;                    
+                        }
+                            /* Nested in #magIconDiv */
+                            span.z1asCe {
+                                display: inline-block;
+                                height: 24px;
+                                position: relative;
+                                width: 24px;
+                            }
+
+                            span.z1asCe svg {
+                                display: block;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        #searchBarDiv {
+                            display: flex;
+                            flex: 1;
+                            flex-wrap: wrap;
+                        }
+                        #searchBarDiv > div {
+                            /* Keeping transparent color on layout sheet because this is an empty div to adjust spacing */
+                            color: transparent;
+                            flex: 100%;
+                            white-space: pre;
+                            height: 34px;
+                        }
+                        #searchBarDiv > input {
+                            /* Styles taken from .gLFyf */
+                            margin: 0;
+                            padding: 0;
+                            word-wrap: break-word;
+                            display: flex;
+                            flex: 100%;
+                            -webkit-tap-highlight-color: transparent;
+                            margin-top: -37px;
+                            height: 34px;
+                            font-size: 16px;
+                        }
+                        #inputCtrlDiv {
+                            /* Styles taken from .dRYYxd */
+                            display:flex;
+                            flex: 0 0 auto;
+                            margin-top: -5px;
+                            align-items: stretch;
+                            flex-direction: row;
+                        }
+                            /* Nested inside #inputCtrlDiv */
+                            #micIconDiv {
+                                /* Styles taken from .XDyW0e */
+                                flex: 1 0 auto;
+                                display: flex;
+                                align-items: center;
+                                padding: 0 8px;
+                                width: 24px;
+                            }
+                            #micIconDiv > svg {
+                                /* Styles taken from .goxjub */
+                                height: 24px;
+                                width: 24px;
+                                vertical-align: middle;
+                            }                        
+                    #searchBtnsDiv {
+                        /* Styles taken from .FPdoLc */
+                        padding-top: 18px;
+                        top:53px;
+                        z-index: 0;
+                        /* Styles taken from .LJ9FBc */
+                        height: 70px;
+                    }
+                    #searchBtnsDiv input[type="submit"] {
+                        margin: 11px 4px;
+                        padding: 0 16px;
+                        height: 36px;
+                        min-width: 54px;
+                        text-align: center;
+                        user-select: none;
+                    }
+        #btmSection {
+            flex-grow: 1;
+        }
+        /* #pageFoot */
+            /* Nested in #pageFoot */
             .KxwPGc {
-                justify-content: space-evenly;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
             }
-            #carbMsgCont {
-                order: 0;
-                width: 100%;
-                justify-content: center;
+            #footContainer {
+                padding: 0 20px;
             }
-        }
+                /* Nested in #footContainer */
+                #footNavLeft {
+                    justify-content: flex-start;
+                    min-width: 30%;
+                    order: 1;
+                }
+                #carbMsgCont {
+                    order: 2;
+                }
+                #carbMsgCont img {
+                    height: 14px;
+                    margin-right: 6px;
+                }
+                #footNavRight {
+                    justify-content: flex-end;
+                    min-width: 30%;
+                    order: 3;
+                }
+                .pHiOh {
+                    display: block;
+                    padding: 15px;
+                    white-space: nowrap;
+                }
+                a.pHiOh {
+                    color: #70757a;
+                }
+            @media only screen and (max-width: 1200px) {
+                .KxwPGc {
+                    justify-content: space-evenly;
+                }
+                #carbMsgCont {
+                    order: 0;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
 
     
 
